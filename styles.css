@@ -9,3 +9,6 @@
 .bolder {
     font-weight: bolder;
 }
+img {
+  opacity: 0.5;
+}
