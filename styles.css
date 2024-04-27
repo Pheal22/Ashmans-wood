@@ -9,9 +9,26 @@
 .bolder {
     font-weight: bolder;
 }
-background {
- background-image: url('trees.jpg');
- opacity: 0.5;
- filter:alpha(opacity=50);
+.demo-wrap {
+  position: relative;
+}
+
+.demo-wrap:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url('https://pheal22.github.io/ashmans-wood/trees.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.demo-content {
+  position: relative;
 }
 
