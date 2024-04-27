@@ -9,6 +9,9 @@
 .bolder {
     font-weight: bolder;
 }
-img {
-  opacity: 0.5;
+background {
+ background-image: url('trees.jpg');
+ opacity: 0.5;
+ filter:alpha(opacity=50);
 }
+
