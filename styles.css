@@ -1,1 +1,11 @@
+ .lighter {
+    font-weight: lighter;
+}
 
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
